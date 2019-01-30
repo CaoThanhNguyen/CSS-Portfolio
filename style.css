@@ -1,0 +1,143 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 1000px;
+    background-color: white; 
+    margin: 10px auto;
+    padding: 10px;
+    border: 0.5px solid lightgrey;
+}
+
+#header {
+    min-height: 100px;
+}
+
+#name {
+    font-family: 'Righteous', cursive;
+    font-size: 4em;
+    width: 450px;
+    padding-left: 30px;
+}
+
+#motto {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header p {
+    display: inline-block;
+}
+
+#content {
+    margin: 20px;
+    background-color: #5A5050;
+}
+
+#biography {
+    padding: 20px;
+}
+
+#myphoto {
+    height: 250px;
+    border: 3px solid #5A5050;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#about {
+    display: inline-block; 
+    width: 490px;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    vertical-align: top;
+    margin-left: 20px;
+    min-height: 250px;
+}
+
+.sub-header {
+    background-color: #547A82;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    min-height: 50px;
+    padding-left: 20px;
+    padding-top:15px;
+}
+
+#about-content {
+    padding: 10px;
+}
+
+#about-content p,a {
+    padding: 10px;
+}
+
+.project {
+    display: inline-block;
+    margin: 0px 0px 20px 20px;
+    width: 285px;
+    min-height: 500px;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    vertical-align: top;
+}
+
+.project > img {
+    width: 285px;
+}
+
+.project p {
+    padding: 10px;
+    height: 180px;
+}
+
+#tech-list img {
+    width: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#button {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#button button {
+	box-shadow: 0px 10px 14px -7px #2E8481;
+	background-color:#3EACA8;
+	border-radius:4px;
+	border:1px solid #3AA8A4;
+	display:inline-block;
+	color:#ffffff;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+    text-decoration:none;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
+
+footer p{
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+
+footer img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+footer ul li {
+    display: inline-block;
+}
